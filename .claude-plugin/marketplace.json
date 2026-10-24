@@ -1,0 +1,19 @@
+{
+  "name": "sandhouse",
+  "owner": {
+    "name": "Retomodo"
+  },
+  "metadata": {
+    "description": "Plugins for working in SandHouse boards with AI assistants."
+  },
+  "plugins": [
+    {
+      "name": "sandhouse",
+      "source": "./plugins/sandhouse",
+      "description": "Connect Claude to your SandHouse boards and have it write pages, wikis, flash card decks and todo items for your spaces.",
+      "version": "0.1.0",
+      "category": "productivity",
+      "keywords": ["sandhouse", "mcp", "notes", "wiki", "flashcards", "tasks"]
+    }
+  ]
+}

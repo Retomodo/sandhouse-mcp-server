@@ -1,0 +1,14 @@
+# Codex and ChatGPT settings for this skill (other tools ignore this file).
+interface:
+  display_name: "Write a wiki"
+  short_description: "Write linked wiki pages"
+  default_prompt: "Write a short wiki about our onboarding process."
+policy:
+  allow_implicit_invocation: false
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "sandhouse"
+      description: "The SandHouse MCP server"
+      transport: "streamable_http"
+      url: "https://sandhouse.app/mcp"

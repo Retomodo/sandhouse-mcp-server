@@ -1,0 +1,6 @@
+# Add to ~/.codex/config.toml (or a trusted project's .codex/config.toml),
+# then run `codex mcp login sandhouse` to sign in.
+[mcp_servers.sandhouse]
+url = "https://sandhouse.app/mcp"
+# Ask before any tool that changes something; reads run without asking.
+default_tools_approval_mode = "writes"

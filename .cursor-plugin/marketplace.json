@@ -1,0 +1,17 @@
+{
+  "name": "sandhouse",
+  "owner": {
+    "name": "Retomodo"
+  },
+  "metadata": {
+    "description": "Plugins for working in SandHouse boards with AI assistants.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "sandhouse",
+      "source": "./plugins/sandhouse",
+      "description": "Connect Cursor to your SandHouse boards and have it write pages, wikis, flash card decks and todo items for your spaces."
+    }
+  ]
+}

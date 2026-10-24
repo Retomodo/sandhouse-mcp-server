@@ -1,0 +1,11 @@
+{
+  "name": "sandhouse",
+  "plugins": [
+    {
+      "name": "sandhouse",
+      "source": { "source": "local", "path": "./plugins/sandhouse" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
+    }
+  ]
+}

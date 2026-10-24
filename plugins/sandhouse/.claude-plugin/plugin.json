@@ -1,0 +1,14 @@
+{
+  "name": "sandhouse",
+  "version": "0.1.0",
+  "description": "Connect Claude to your SandHouse boards and have it write pages, wikis, flash card decks and todo items for your spaces.",
+  "author": {
+    "name": "Retomodo",
+    "url": "https://sandhouse.app"
+  },
+  "homepage": "https://sandhouse.app",
+  "repository": "https://github.com/Retomodo/sandhouse-mcp-server",
+  "privacyPolicyUrl": "https://sandhouse.app/privacy",
+  "license": "MIT",
+  "keywords": ["sandhouse", "mcp", "notes", "wiki", "flashcards", "tasks"]
+}

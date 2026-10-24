@@ -1,0 +1,14 @@
+# Codex and ChatGPT settings for this skill (other tools ignore this file).
+interface:
+  display_name: "Draft a page"
+  short_description: "Write a page into a space"
+  default_prompt: "Draft a page on our launch plan in my SandHouse board."
+policy:
+  allow_implicit_invocation: false
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "sandhouse"
+      description: "The SandHouse MCP server"
+      transport: "streamable_http"
+      url: "https://sandhouse.app/mcp"

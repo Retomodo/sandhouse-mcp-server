@@ -1,0 +1,14 @@
+# Codex and ChatGPT settings for this skill (other tools ignore this file).
+interface:
+  display_name: "SandHouse boards"
+  short_description: "Work in your SandHouse boards"
+  default_prompt: "List my SandHouse boards and what's in them."
+policy:
+  allow_implicit_invocation: true
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "sandhouse"
+      description: "The SandHouse MCP server"
+      transport: "streamable_http"
+      url: "https://sandhouse.app/mcp"

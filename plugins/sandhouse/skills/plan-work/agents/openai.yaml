@@ -1,0 +1,14 @@
+# Codex and ChatGPT settings for this skill (other tools ignore this file).
+interface:
+  display_name: "Plan work"
+  short_description: "Turn a goal into work items"
+  default_prompt: "Break this goal into work items on my todo board."
+policy:
+  allow_implicit_invocation: false
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "sandhouse"
+      description: "The SandHouse MCP server"
+      transport: "streamable_http"
+      url: "https://sandhouse.app/mcp"

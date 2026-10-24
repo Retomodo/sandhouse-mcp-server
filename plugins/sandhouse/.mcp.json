@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "sandhouse": {
+      "type": "http",
+      "url": "${SANDHOUSE_MCP_URL:-https://sandhouse.app/mcp}"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+# Codex and ChatGPT settings for this skill (other tools ignore this file).
+interface:
+  display_name: "Make a study deck"
+  short_description: "Make flash cards to study"
+  default_prompt: "Make 20 flash cards on these notes in my study space."
+policy:
+  allow_implicit_invocation: false
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "sandhouse"
+      description: "The SandHouse MCP server"
+      transport: "streamable_http"
+      url: "https://sandhouse.app/mcp"
